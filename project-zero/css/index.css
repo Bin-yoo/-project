@@ -1,11 +1,53 @@
-*{font-family: "微软雅黑"; margin:0px; padding:0px;}
+*{font-family: "微软雅黑","arial","宋体"; margin:0px; padding:0px;}
 html{height:100%; width: 100%;}
-body{height:100%; width: 100%;min-width:1000px;cursor:default;}
-.box .menu{position: fixed; right: 10px;}
-.box .titlebg{position:fixed;width:100%; height:800px; min-width: 1000px; background-size: cover; background-image: url("../img/starsky.jpg");z-index:-10;}}
-.box .titlebg .text1{}
-.box .titlebg .text2{}
-.box .section{width: 100%;height: auto;}
-.box .section .ebg{width:100%; height:800px;}
-.box .section .Preface{width:100%; height:400px; background-color: white; padding: 0;}
-.box .section .Preface .Preface_content{position: relative; width:500px; height:250px; top: 50px; margin: auto;}
+body{height:100%; width: 100%;min-width:1000px;}
+li{list-style-type: none;}
+
+.box{width: 100%;}
+/*bg*/
+.box .bg{width: 100%; height: 00px; position: fixed; top: 100px;}
+.box .bg .titlebg{ width:100%; height:800px; min-width: 1000px; background-size: cover; background-image: url("../img/starsky.jpg");z-index: -10;}}
+.box .bg .1{position: absolute;}    /*不要删!!!!!删了下面的图片会错位*/
+.box .bg .text1{position: absolute; right: 80px; top: 300px;}
+.box .bg .text2{position: relative; left: 1320px; bottom: 200px;}
+
+/*maincontent*/
+.box .section{width: 100%;height: auto; z-index: 1000; z-index: 10; position: relative;}
+/*top*/
+.box .section .top_nav{padding: 0; margin: 0; width: 100%; height: 100px; position: fixed; top: 0; z-index: 10; background-color: white;}
+.box .section .top_nav .top_nav_container{width: 1400px; height: 100%; padding: 0; margin-left: auto; margin-right: auto;}
+.box .section .top_nav .logo{float: left; width: 300px; height: 100%;}
+.box .section .top_nav .menu{width: auto; height: 100%; float: right;}
+.box .section .top_nav .menu .menu_list{}
+.box .section .top_nav .menu .menu_list li{float: left; width: auto; padding: 0px 20px; height: 100px; line-height: 100px; text-align: center;}
+.box .section .top_nav .menu .menu_list .active{background-color: red;}
+/*ebg*/
+.box .section .ebg{width:100%; height:900px;}
+/*序言*/
+.box .section .Preface{width:100%; height:300px; background-color: white; padding: 0; overflow: hidden; box-shadow: 0px 5px 10px 0px #888888 inset;}
+.box .section .Preface .Preface_content{width:500px; height:250px; margin-top: 50px; margin-left: auto; margin-right: auto; text-align: center;}
+.box .section .Preface .Preface_content>h1{margin-bottom: 30px; font-size: 30px; color: gray;}
+/*part1*/
+.box .section .part1{width: 100%; height: 1080px; position: relative;  box-shadow: 0px -5px 10px 0px #888888;}
+.box .section .part1{background-image: url("../img/city_01.jpg"); width: 100%; height: 690px; background-size: cover;}
+.box .section .part1 .page1{width: 100%; height: 690px; color: white; overflow: hidden;}
+.box .section .part1 .page1 .page1_title{margin-top: 90px;}
+.box .section .part1 .page1 .page1_title>h1{font-size: 40px; text-align: center;}
+.box .section .part1 .page1 .page1_title>h2{text-align: center; margin-top: 20px;}
+.box .section .part1 .page1 .page1_content{width: 1500px; height: 450px; margin-top: 50px; margin-left: auto; margin-right: auto;}
+.box .section .part1 .page1 .page1_content .page1_content_text{width: 800px; height: 100%; float: left;}
+.box .section .part1 .page1 .page1_content .page1_content_link{width: 574px; height: 272px; float: right;}
+.box .section .part1 .page1 .page1_content .page1_content_link .content_link{width: 272px; height: 272px; float: left; position: relative; overflow: hidden;}
+.box .section .part1 .page1 .page1_content .page1_content_link .content_link>p{position: absolute; bottom: -50px; width: 100%; height: 50px;}
+.box .section .part1 .page1 .page1_content .page1_content_link .content_link>a>img{width: 272px; height: 272px;}
+.box .section .part1 .page1 .page1_content .page1_content_link .content_link2{margin-left: 30px;}
+/*part2*/
+.box .section .part2{width: 100%; height: 800px; background-color: white; box-shadow: 0px 5px 10px 0px #888888 inset;}
+.box .section .part2 .page2{width: 100%; height: 800px;}
+
+/*part3*/
+.box .section .part3{width: 100%; height: 1080px;}
+/*part4*/
+.box .section .part4{width: 100%; height: 1080px;}
+/*part5*/
+.box .section .part5{width: 100%; height: 1080px;}
