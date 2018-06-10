@@ -1,11 +1,35 @@
 *{font-family: "微软雅黑"; margin:0px; padding:0px;}
 html{height:100%; width: 100%;}
 body{height:100%; width: 100%;min-width:1000px;cursor:default;}
-.box .menu{position: fixed; right: 10px;}
-.box .titlebg{position:fixed;width:100%; height:800px; min-width: 1000px; background-size: cover; background-image: url("../img/starsky.jpg");z-index:-10;}}
-.box .titlebg .text1{}
-.box .titlebg .text2{}
+li{list-style-type: none;}
+
+/*top*/
+.box .top{position: fixed; top: 0; padding: 0; margin: 0; width: 100%; height: 100px;}
+.box .titlebg{position:fixed; top: 100px; width:100%; height:800px; min-width: 1000px; background-size: cover; background-image: url("../img/starsky.jpg");z-index:-10;}}
+.box .titlebg .text1{position: absolute; right: 80px; top: 100px;}  /*不要删除这行.他会影响下一行的定位*/
+.box .titlebg .text2{position: absolute; right: 80px; bottom: 100px;}
+.box .top_nav{padding: 0; margin: 0; width: 100%; height: 100px; position: fixed;}
+.box .top_nav .top_nav_container{width: 1400px; height: 100%; padding: 0; margin-left: auto; margin-right: auto;}
+.box .top_nav .logo{float: left; width: 300px; height: 100%;}
+.box .top_nav .menu{width: auto; height: 100%; float: right;}
+.box .top_nav .menu .menu_list{}
+.box .top_nav .menu .menu_list li{float: left; width: auto; padding: 0px 20px; height: 100px; line-height: 100px; text-align: center;}
+.box .top_nav .menu .menu_list .active{background-color: red;}
+
+/*maincontent*/
 .box .section{width: 100%;height: auto;}
-.box .section .ebg{width:100%; height:800px;}
-.box .section .Preface{width:100%; height:400px; background-color: white; padding: 0;}
-.box .section .Preface .Preface_content{position: relative; width:500px; height:250px; top: 50px; margin: auto;}
+.box .section .ebg{width:100%; height:800px; position: relative; top: 100px;}
+.box .section .Preface{width:100%; height:250px; background-color: white; padding: 0;}
+.box .section .Preface .Preface_content{position: relative; width:500px; height:250px; top: 50px; margin: auto; text-align: center;}
+.box .section .part1{width: 100%; height: 1080px;}
+.box .section .part2{width: 100%; height: 1080px;}
+.box .section .part3{width: 100%; height: 1080px;}
+.box .section .part4{width: 100%; height: 1080px;}
+.box .section .part5{width: 100%; height: 980px; background-color: white;}
+.box .section .part5 .page5{ width: 100%;height: 980px;}
+.box .section .part5 .page5 .img_deer{background-image: url(../img/beer.png); margin: auto;width: 473px; height: 610px;}
+.box .section .part5 .page5 .page5_text{padding-top: 50px;width: 1200px; margin: auto;}
+.box .section .part5 .page5 .page5_text h1{font-size: 40px;}
+.box .section .part6{width: 100%; height: 30px;background-color: lightblue; position: relative;margin-bottom: 0px;}
+.end{text-align: center;font-size: 12px;color: cadetblue;padding-top: 5px;}
+
