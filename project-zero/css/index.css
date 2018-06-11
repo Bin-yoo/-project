@@ -10,7 +10,7 @@ li{list-style-type: none;}
 .box .bg .titlebg{ width:100%; height:800px; min-width: 1000px; background-size: cover; background-image: url("../img/starsky.jpg");z-index: -10;}}
 .box .bg .1{position: absolute;}    /*不要删!!!!!删了下面的图片会错位*/
 .box .bg .text1{position: absolute; right: 80px; top: 300px;}
-.box .bg .text2{position: relative; left: 1320px; bottom: 200px;}
+.box .bg .text2{position: relative; left: 1300px; bottom: 200px;}
 
 /*maincontent*/
 .box .section{width: 100%;height: auto; z-index: 1000; z-index: 10; position: relative;}
@@ -52,9 +52,9 @@ li{list-style-type: none;}
 .box .section .part4{width: 100%; height: 1080px;}
 /*part5*/
 .box .section .part5{width: 100%; height: 980px; background-color: white;}
-.box .section .part5 .page5{ width: 100%;height: 980px;}
-.box .section .part5 .page5 .img_deer{background-image: url(../img/beer.png); margin: auto;width: 473px; height: 610px;}
-.box .section .part5 .page5 .page5_text{padding-top: 50px;width: 1200px; margin: auto;}
+.box .section .part5 .page5{ width: 100%;height: 980px; overflow: hidden;}
+.box .section .part5 .page5 .endpic{margin-top: 70px;margin-left: 470px;}
+.box .section .part5 .page5 .page5_text{margin-top: 50px;width: 1200px; margin-left: auto; margin-right: auto;}
 .box .section .part5 .page5 .page5_text h1{font-size: 40px;}
 .box .section .part6{}
 /*footer*/
