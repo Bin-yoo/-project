@@ -51,14 +51,17 @@ li{list-style-type: none;}
 /*part4*/
 .box .section .part4{width: 100%; height: 1080px;}
 /*part5*/
-.box .section .part5{width: 100%; height: 980px; background-color: white;}
-.box .section .part5 .page5{width: 100%;height: 980px; overflow: hidden; }
+.box .section .part5{width: 100%; height: 1000px; background-color: white;}
+.box .section .part5 .page5{ width: 100%;height: 1000px; overflow: hidden;}
 .box .section .part5 .page5 .endpic{margin: 40px auto 0px auto; text-align: center;}
-.box .section .part5 .page5 .page5_text{margin-top: 40px;width: 1200px; margin-left: auto; margin-right: auto;}
-.box .section .part5 .page5 .page5_text h1{font-size: 40px;}
+.box .section .part5 .page5 .page5_text{margin-top: 40px;width: 1200px; margin-left: auto; margin-right: auto;color: #a6a6a6;}
 .box .section .part5 .page5 .page5_text table{width: 100%; height: 100%;}
 .box .section .part5 .page5 .page5_text .chuxin{width: 80px; text-align: center; vertical-align: top;}
-.box .section .part5 .page5 .page5_text .chuxin>h1{font-family: "仿宋";}
+.box .section .part5 .page5 .page5_text .chuxin>h1{font-family: "仿宋";color: #505050;font-size: 35px;font-style: oblique;}
+.box .section .part5 .page5 .page5_tab{width: 1245px;height: 35px;margin: auto;margin-top: 50px;border-top: 1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;}
+.box .section .part5 .page5 .page5_tab div{float: left;width: 405px;height: 35px;text-align: center;line-height: 35px;}
+.box .section .part5 .page5 .page5_tab .page5_tab_middle{border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;}
+.box .section .part5 .page5 .page5_tab a{color: darkgray;text-decoration: none;}
 /*part6*/
 .box .section .part6{}
 /*footer*/
