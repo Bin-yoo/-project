@@ -63,7 +63,17 @@ li{list-style-type: none;}
 .box .section .part2 .page2{width: 100%; height: 800px;}
 
 /*part3*/
-.box .section .part3{width: 100%; height: 1080px;}
+.box .section .part3{width: 100%; height: 1080px;background-color: white;}
+.box .section .part3 .page3{width: 1500px; height: 1080px; margin: auto;}
+.box .section .part3 .page3 .headline{width: 100%;position: relative;top: 100px;}
+.box .section .part3 .page3 .headline>h1{text-align: center;font-size: 38px;margin-bottom: 20px;}
+.box .section .part3 .page3 .headline>p{text-align: center;font-size: 15px;line-height: 18px;}
+.box .section .part3 .page3 .eightpoint .inner{width: 134px;height: 155px;background-image: url(../img/rhombus.png);margin: auto;margin-bottom: 20px;}
+.box .section .part3 .page3 .eightpoint .inner>h1{font-size: 50px;text-align: center;position: relative;top: 40px;}
+.box .section .part3 .page3 .eightpoint .fist{margin-top: 200px;}
+.box .section .part3 .page3 .eightpoint .fist>div{float: left;margin-left: 100px;width: 250px;height: 350px;}
+.box .section .part3 .page3 .eightpoint .second>div{float: left;margin-left: 100px;width: 250px;height: 350px;}
+
 /*part4*/
 .box .section .part4{width: 100%; height: 1080px; background-color: white;}
 .box .section .part4 .img4_bg{background-image: url(../img/part4_bg.png); width: 1375px; height: 614px; margin: auto;position: relative;top: 150px;z-index: 1;box-shadow: 0px 5px 10px 0px #888888;}
