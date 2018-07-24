@@ -71,6 +71,7 @@ a:hover{text-decoration: underline; color: #fff;}
 .box .section .part2 .page2 .p2content .p2rightcontent .media .media-num{width: 90px; height: 90px; border-radius: 50%; position: relative; top: -70px;background-color: red; float: left; color: #fff; text-align: center; font-size: 40px; line-height: 89px;;}
 
 /*part3*/
+
 .box .section .part3{ box-shadow: 0px -5px 10px 0px #888888; background-image:url(../img/part3_bg.jpg)}
 .box .section .part3 .page3{height: 800px;}
 .box .section .part3 .page3 .headline{width: 100%;margin-top: 80px;}
@@ -82,6 +83,7 @@ a:hover{text-decoration: underline; color: #fff;}
 .box .section .part3 .page3 .eight_point .kuang .kuang_text{margin-left: 50px;position: absolute;top: 0px;height: 100%;}
 .box .section .part3 .page3 .eight_point .kuang .kuang_text p{color: white;line-height: 125%;font-size: 16px;text-indent: 2em;}
 .box .section .part3 .page3 .eight_point #eight_left{margin-right: 10px;}
+
 
 /*part4*/
 .box .section .part4{width: 100%; height: 1080px; background-color: white; box-shadow: 0px 5px 10px 0px #888888 inset;}

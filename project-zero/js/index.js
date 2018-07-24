@@ -10,6 +10,7 @@ $(function(){
     },function(){
         $(this).find('p').animate({'bottom':'-90px'},500);
     });
+
 	
 	$(".part3 .eight_point .kuang").hover(function(){
 		$(this).css("border","3px solid red");
@@ -20,4 +21,5 @@ $(function(){
 		$(this).find("div").css("background-color","yellow");
 		$(this).find("div").css("color","red");
 	})
+
 });
