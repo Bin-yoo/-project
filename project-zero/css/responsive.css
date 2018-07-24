@@ -1,6 +1,16 @@
 /* iPads (portrait and landscape) ----------- */
-@media (max-width: 768px) {
-    body{ overflow-x: hidden;}
+@media (max-width:991px) {
+    .box .section .part4 .threebox {
+        margin-top: -280px;
+    }
+    .box .section .part4 .img4_bg div {
+        padding-top: 45px;
+    }
+}
+@media (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
     .navbar-header {
         float: none;
     }
@@ -9,15 +19,14 @@
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-collapse.collapse {
         display: none !important;
     }
-    .navbar-fixed-top .navbar-collapse,
-    .navbar-fixed-bottom .navbar-collapse {
-      max-height: 420px;
-      text-align: center;
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: 420px;
+        text-align: center;
     }
     .gray-bg .vline {
         left: 11%;
@@ -41,9 +50,15 @@
         float: none;
         margin: 15px 0;
     }
-    .navbar-collapse.collapse.in {display: block!important;}
-    .collapsing {overflow: hidden!important; }
-    .navbar-nav {margin: 0 -15px;}
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .collapsing {
+        overflow: hidden !important;
+    }
+    .navbar-nav {
+        margin: 0 -15px;
+    }
     .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
         padding: 10px 15px 10px 25px;
     }
@@ -53,28 +68,67 @@
     .price.featured.panel-default {
         margin: 40px;
     }
-    .content-heading{ margin-top: 80px;}
-    .ipad-wrapper .app-wrap {left: 22%;}
-    #tf-home.app .content-heading.text-left{text-align: center;}
-    #itemsWorkTwo .box .hover-text i.fa {
-        top: 0%;
+    .content-heading {
+        margin-top: 80px;
+    }
+    .ipad-wrapper .app-wrap {
+        left: 22%;
     }
 }
-@media (max-width: 768px) {
-
+@media (max-width:768px) {
+    .box .section .part4 .threebox {
+        margin-top: -280px;
+    }
+    .box .section .part4 .img4_bg div {
+        padding-top: 45px;
+    }
 }
-@media (max-width: 603px) {
-
+@media (max-width:603px) {
+    .box .section .part4 .threebox {
+        margin-top: -220px;
+    }
+    .box .section .part4 .img4_bg div {
+        padding-top: 35px;
+    }
 }
-
-@media (max-width: 460px) {
-    h1 { font-size: 34px;}
+@media (max-width:460px) {
+    h1 {
+        font-size: 34px;
+    }
 }
-@media (max-width: 360px) {
-    p{ font-size: 12px}
-    h1 {font-size: 24px}
-    h2{ font-size: 16px;}
+@media (max-width:360px) {
+    p {
+        font-size: 12px
+    }
+    h1 {
+        font-size: 24px
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .box .section .part4 .img4_bg div p {
+        line-height: 20px;
+    }
+    .box .section .part4 .threebox {
+        margin-top: -210px;
+    }
+    .box .section .part4 .img4_bg div {
+        padding-top: 25px;
+    }
+    .footer p {
+        line-height: 14px;
+    }
+    .box .section .part4 .threebox>div>div>div{
+        height: auto;
+    }
 }
-@media (max-width: 320px) {
-
+@media (max-width:320px) {
+    .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
+        font-size: 14px;
+    }
+}
+@media (max-width:260px) {
+    .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
+        font-size: 12px;
+    }
 }
