@@ -106,6 +106,12 @@
     h2 {
         font-size: 16px;
     }
+    .box .section .part3 .page3 .eight_point .kuang{
+    	height: 180px;
+    }
+    .box .section .part3 .page3 .eight_point .kuang .kuang_num{
+    	margin-top: 45px;
+    }
     .box .section .part4 .img4_bg div p {
         line-height: 20px;
     }
@@ -125,6 +131,12 @@
 @media (max-width:320px) {
     .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
         font-size: 14px;
+    }
+    .box .section .part3 .page3 .eight_point .kuang{
+    	height: 180px;
+    }
+    .box .section .part3 .page3 .eight_point .kuang .kuang_num{
+    	margin-top: 45px;
     }
 }
 @media (max-width:260px) {
