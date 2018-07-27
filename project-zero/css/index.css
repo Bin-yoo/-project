@@ -4,8 +4,8 @@ html{height:100%; width: 100%; overflow-x:hidden;}
 body{height:100%; width: 100%;}
 
 ::-webkit-scrollbar {width: 8px;}
-::-webkit-scrollbar-track {background: rgba(0, 0, 0, 0.1);}
-::-webkit-scrollbar-thumb {background: rgba(0, 0, 0, 0.5);}
+::-webkit-scrollbar-track {background: rgba(0,0,0,0);}
+::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.5);}
 
 li{list-style-type: none;}
 a{color: #FFF; text-decoration: none;}
@@ -36,7 +36,7 @@ a:hover{text-decoration: underline; color: #fff;}
 #top_nav img{height: 70px; position: relative; top: -25px;}
 
 /*ebg*/
-.box .section .ebg{width: 100%; height: 900px; background-attachment: fixed; background-size: 100% 100%; background-image: url("../img/starsky.jpg"); z-index: -10;}
+.box .section .ebg{width: 100%; height: 0; padding-bottom: 40%; background-attachment: fixed; background-repeat: no-repeat; background-size: contain; background-image: url(../img/P2.jpg);}
 
 /*序言*/
 .box .section .Preface{padding: 55px 0;background-color: white; overflow: hidden; box-shadow: 0px 5px 10px 0px #888888 inset;}
@@ -56,19 +56,18 @@ a:hover{text-decoration: underline; color: #fff;}
 .box .section .part1 .page1 .page1_content .content_link>a>img{width: 100%; height: 100%;}
 
 /*part2*/
-.box .section .part2{width: 100%; height: auto; background-color: white; box-shadow: 0px 5px 10px 0px #888888 inset; overflow: hidden; background-image: url(../img/P2bg.jpg);}
-.box .section .part2 .page2{width: 1200px; height: 100%; margin: 0 auto;}
-.box .section .part2 .page2 .p2title{width: 1000px; height: 90px; background-image: url(../img/part2titlebg.png); margin: 50px auto;}
-.box .section .part2 .page2 .p2title h1{font-size: 40px; color: #fff; text-align: center; line-height: 90px;}
-.box .section .part2 .page2 .p2content{width: 100%; height: 840px;}
-.box .section .part2 .page2 .p2content .p2leftcontent{width: 550px; height: 100%; float: left;}
-.box .section .part2 .page2 .p2content .p2rightcontent{width: 550px; height: 100%; float: right;}
+.box .section .part2{width: 100%; height: auto; background-color: white; box-shadow: 0px 5px 10px 0px #888888 inset; overflow: hidden; background-image: url(../img/P2bg.jpg); padding-top: 50px; padding-bottom: 50px;}
+.box .section .part2 .page2{}
+.box .section .part2 .page2 .container-fluid{margin: 50px auto;}
+.box .section .part2 .page2 .p2title{width: 100%; height: 90px; background-image: url(../img/part2titlebg.png); background-size: 1000px; background-position: center; background-repeat: no-repeat;}
+.box .section .part2 .page2 .p2title h1{color: #fff; text-align: center; line-height: 90px;}
 .box .section .part2 .page2 .media{height: 100px; width: 100%;}
-.media-body{height: 70px; position: relative; top: 12px; border-radius: 50px; border: 2px solid red; color: red; font-size: 26px; line-height: 70px;}
-.box .section .part2 .page2 .p2content .p2leftcontent .media .media-body>p{float: left; margin-left: 30px}
-.box .section .part2 .page2 .p2content .p2rightcontent .media .media-body>p{float: right; margin-right: 30px}
-.box .section .part2 .page2 .p2content .p2leftcontent .media .media-num{width: 90px; height: 90px; border-radius: 50%; position: relative; top: -70px; background-color: red; float: right; color: #fff; text-align: center; font-size: 40px; line-height: 89px;}
-.box .section .part2 .page2 .p2content .p2rightcontent .media .media-num{width: 90px; height: 90px; border-radius: 50%; position: relative; top: -70px;background-color: red; float: left; color: #fff; text-align: center; font-size: 40px; line-height: 89px;;}
+.media-body{height: 70px; position: relative; top: 12px; border-radius: 50px; border: 2px solid red; color: red;}
+.box .section .part2 .page2 #p2content{margin-top: 30px;}
+.box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{float: left; margin-left: 30px; margin-top: 15px;}
+.box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{float: right; margin-right: 30px;margin-top: 15px;}
+.box .section .part2 .page2 #p2content #p2leftcontent .media .media-num{width: 90px; height: 90px; border-radius: 50%; position: relative; top: -70px; background-color: red; float: right; color: #fff; text-align: center; font-size: 40px; line-height: 89px;}
+.box .section .part2 .page2 #p2content #p2rightcontent .media .media-num{width: 90px; height: 90px; border-radius: 50%; position: relative; top: -70px;background-color: red; float: left; color: #fff; text-align: center; font-size: 40px; line-height: 89px;;}
 
 /*part3*/
 
@@ -102,7 +101,7 @@ a:hover{text-decoration: underline; color: #fff;}
 .box .section .part5 .page5 .endpic{margin: 40px auto 0px auto;}
 .box .section .part5 .page5 .page5_text{margin-top: 50px;color: #a6a6a6;width: 100%;}
 .box .section .part5 .page5 .page5_text .chuxin{width: 80px; text-align: center; vertical-align: top;float: left;}
-.box .section .part5 .page5 .page5_text .chuxin>h1{font-family: "仿宋";color: #505050;font-size: 35px;font-style: oblique;}
+.box .section .part5 .page5 .page5_text .chuxin>h1{font-family: "仿宋";color: #505050;font-style: oblique;}
 .box .section .part5 .page5 .page5_tab{width: 100%;height: 35px;margin: auto;margin-top: 50px;margin-bottom:50px;border-top: 1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;}
 .box .section .part5 .page5 .page5_tab div{float: left;width: 33.3%;height: 35px;text-align: center;line-height: 35px;}
 .box .section .part5 .page5 .page5_tab .page5_tab_middle{border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;}

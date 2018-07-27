@@ -1,10 +1,53 @@
 /* iPads (portrait and landscape) ----------- */
+@media (max-width:1410px) {
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        font-size: 26px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        font-size: 26px;
+    }
+}
+@media (max-width:1300px) {
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        font-size: 24px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        font-size: 24px;
+    }
+}
+@media (max-width:1215px) {
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        font-size: 22px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        font-size: 22px;
+    }
+}
+@media (max-width:1215px) {
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        font-size: 20px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        font-size: 20px;
+    }
+}
+@media (max-width:1000px) {
+    .box .section .part2 .page2 .p2title{
+        background-size: 100% 100%;
+        background-position: ;
+    }
+}
 @media (max-width:991px) {
     .box .section .part4 .threebox {
         margin-top: -280px;
     }
     .box .section .part4 .img4_bg div {
         padding-top: 45px;
+    }
+}
+@media (max-width:991px) {
+    .box .section .part2 .page2 .p2title h1{
+        font-size: 32px;
     }
 }
 @media (max-width:768px) {
@@ -82,6 +125,13 @@
     .box .section .part4 .img4_bg div {
         padding-top: 45px;
     }
+    .box .section .part2 .page2 .p2title h1{
+        font-size: 22px;
+        line-height: 75px;
+    }
+    .box .section .part2 .page2 .p2title{
+        height: 75px;
+    }
 }
 @media (max-width:603px) {
     .box .section .part4 .threebox {
@@ -91,12 +141,48 @@
         padding-top: 35px;
     }
 }
+@media (max-width:500px) {
+    .box .section .part2 .page2 .p2title h1{
+        font-size: 18px;
+        line-height: 55px;
+    }
+    .box .section .part2 .page2 .p2title{
+        height: 55px;
+    }
+}
 @media (max-width:460px) {
     h1 {
         font-size: 34px;
     }
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        float: none;
+        font-size: 20px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        float: none;
+        font-size: 20px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body{
+        padding-left: 95px;
+    }
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body{
+        padding-right: 95px;
+    }
+    /*     .box .section .part2 .page2 #p2content #p2leftcontent .media .media-num{
+        display: none;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-num{
+        display: none;
+    } */
+    .box .section .part2 .page2 .p2title h1{
+        font-size: 16px;
+        line-height: 45px;
+    }
+    .box .section .part2 .page2 .p2title{
+        height: 45px;
+    }
 }
-@media (max-width:360px) {
+@media (max-width:376px) {
     p {
         font-size: 12px
     }
@@ -127,6 +213,19 @@
     .box .section .part4 .threebox>div>div>div{
         height: auto;
     }
+    .box .section .part2 .page2 .p2title h1{
+        line-height: 24px;
+    }
+    .box .section .part2 .page2 .p2title{
+        height: 48px;
+        font-size: 12px;
+    }
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        font-size: 16px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        font-size: 16px;
+    }
 }
 @media (max-width:320px) {
     .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
@@ -138,9 +237,25 @@
     .box .section .part3 .page3 .eight_point .kuang .kuang_num{
     	margin-top: 45px;
     }
+    .box .section .part2 .page2 .p2title h1{
+        font-size: 10px;
+        line-height: 26px;
+    }
+    .box .section .part2 .page2 #p2content #p2leftcontent .media .media-body>h2{
+        font-size: 14px;
+    }
+    .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
+        font-size: 14px;
+    }
 }
 @media (max-width:260px) {
     .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
         font-size: 12px;
+    }
+    .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
+        font-size: 12px;
+    }
+    #n12>.media-body{
+        top: 0px;
     }
 }
