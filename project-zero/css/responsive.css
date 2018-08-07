@@ -31,6 +31,13 @@
         font-size: 20px;
     }
 }
+@media (max-width:1200px) {
+    .box .section .part6 .newslist .itembody .new{
+        float: left;
+        width: 64%;
+        margin-left: 5px;
+    }
+}
 @media (max-width:1000px) {
     .box .section .part2 .page2 .p2title{
         background-size: 100% 100%;
@@ -44,10 +51,16 @@
     .box .section .part4 .img4_bg div {
         padding-top: 45px;
     }
-}
-@media (max-width:991px) {
     .box .section .part2 .page2 .p2title h1{
         font-size: 32px;
+    }
+    .box .section .part6 .newslist .itembody .new{
+        width: 400px;
+        float: right;
+        width: 70%;
+    }
+    .box .section .part6 .newslist{
+        margin-top: 20px;
     }
 }
 @media (max-width:768px) {
@@ -141,6 +154,13 @@
         padding-top: 35px;
     }
 }
+@media (max-width:580px) {
+    .box .section .part6 .newslist .itembody .new{
+        float: left;
+        margin-left: 5px;
+        width: 65%;
+    }
+}
 @media (max-width:500px) {
     .box .section .part2 .page2 .p2title h1{
         font-size: 18px;
@@ -148,6 +168,16 @@
     }
     .box .section .part2 .page2 .p2title{
         height: 55px;
+    }
+    .box .section .part6 .newslist .itembody .new{
+        float: none;
+        width: 100%;
+    }
+    .box .section .part6 .newslist .itembody .aimg{
+        float: none;
+    }
+    .box .section .part6 .newslist .itembody{
+        height: auto;
     }
 }
 @media (max-width:460px) {
