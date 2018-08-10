@@ -130,8 +130,16 @@ a:hover{text-decoration: underline; color: #fff;}
 .source{color: #707070FF;}
 
 /*footer*/
-.footer{width: 100%;text-align: center;font-size: 12px;}
-.footer .link_tab{width: 100%;height: 35px;margin: auto;margin-top: 50px;margin-bottom:50px;border-top: 1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;}
+.footer{width: 100%;text-align: center;font-size: 12px; box-shadow: 0px -5px 10px 0px #888888;}
+.footer .container{max-width:1720px;padding: 50px 0;}
+.footer .theory{margin-top: 40px; height: 180px;}
+.footer .theory .f_text{font-size: 14px; text-indent: 2em; text-align: left; overflow: hidden;}
+.footer .theory .f_text .focus{width: 7020px; position: relative;}
+.footer .theory .f_text .focus li{float: left; width: 1170px;}
+.footer .theory .f_handler{position:absolute; width:100%; z-index: 50; height:20px; text-align:center;bottom: 0px;}
+.footer .theory .f_handler i{width:10px;height:10px; border-radius:10px; margin: 0 5px; display: inline-block; box-shadow: 0 0 8px rgba(0,0,0,.5); background-color: white; cursor: pointer;}
+.footer .theory .f_handler i.active{background: #C1C1C1FF;}
+.footer .link_tab{width: 100%;height: 35px;margin: auto;margin-top: 50px; border-top: 1px solid #dcdcdc;border-bottom: 1px solid #dcdcdc;}
 .footer .link_tab div{float: left;width: 33.3%;height: 35px;text-align: center;line-height: 35px;}
 .footer .link_tab .link_tab_middle{border-left: 1px solid #dcdcdc;border-right: 1px solid #dcdcdc;}
 .footer .link_tab a{color: darkgray;}

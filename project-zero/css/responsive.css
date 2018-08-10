@@ -145,6 +145,9 @@
     .box .section .part2 .page2 .p2title{
         height: 75px;
     }
+    .footer .theory{
+        height: 200px;
+    }
 }
 @media (max-width:603px) {
     .box .section .part4 .threebox {
@@ -179,6 +182,9 @@
     .box .section .part6 .newslist .itembody{
         height: auto;
     }
+    .footer .theory{
+        height: 220px;
+    }
 }
 @media (max-width:460px) {
     h1 {
@@ -210,6 +216,11 @@
     }
     .box .section .part2 .page2 .p2title{
         height: 45px;
+    }
+}
+@media (max-width:430px) {
+    .footer .theory{
+        height: 260px;
     }
 }
 @media (max-width:376px) {
@@ -256,6 +267,9 @@
     .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
         font-size: 16px;
     }
+    .footer .theory{
+        height: 200px;
+    }
 }
 @media (max-width:320px) {
     .box .section .part3 .page3 .eight_point .kuang .kuang_text p{
@@ -276,6 +290,9 @@
     }
     .box .section .part2 .page2 #p2content #p2rightcontent .media .media-body>h2{
         font-size: 14px;
+    }
+    .footer .theory{
+        height: 220px;
     }
 }
 @media (max-width:260px) {
