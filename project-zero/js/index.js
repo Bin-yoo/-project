@@ -20,6 +20,13 @@ $(function(){
 	},function(){
 		$(this).find(".case_button").stop(true).animate({right:'-34px'},300);
 	})
+	
+	/*理论点评子页*/
+	$(".box .section .lilun .case .case_tab").hover(function(){
+		$(this).find(".case_button").stop(true).animate({right:'30px'},300);
+	},function(){
+		$(this).find(".case_button").stop(true).animate({right:'-34px'},300);
+	})
 
     /* 滚动脚本 */
     var Scroll_li = $(".box .section .part6 .newslist ul li").height();
