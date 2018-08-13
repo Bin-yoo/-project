@@ -74,7 +74,6 @@ $(function(){
     });
 
     $(window).scroll(function(){
-        console.log($(window).scrollTop());
         if($(window).scrollTop() < 400){
             $(".scroll1").addClass('active');
         }else{
