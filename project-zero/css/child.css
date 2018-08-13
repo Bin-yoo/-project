@@ -22,8 +22,7 @@ a:hover{text-decoration: none;}
 .box .l_newlists{box-shadow: 0 1px 3px rgba(26,26,26,.1); margin-top: 80px; background-color: white;}
 .box .l_newlists ul li {padding: 18px 24px; background: #fff; border-bottom: 1px solid #f4f4f4; position: relative;}
 .box .l_newlists ul li:hover {background: #fafafa;}
-.box .l_newlists ul li .list_con h2 {font-size: 18px; font-weight: bold; line-height: 24px; height: 24px; margin-bottom: 4px; display: inline-block;
-}
+.box .l_newlists ul li .list_con h2 {font-size: 18px; font-weight: bold; line-height: 24px; height: 24px; margin-bottom: 4px; display: inline-block;}
 .box .l_newlists ul li .list_con h2 a {color: #3d3d3d; display: block; line-height: 24px; height: 24px; word-wrap: break-word; word-break: break-all;}
 .box .l_newlists ul li .list_con h2 a:hover, .box .l_newlists ul li .list_con h2 a:active {color: #ca0c16;}
 .box .l_newlists ul li .list_con dl.list_userbar {height: 24px; line-height: 24px;}
@@ -53,5 +52,17 @@ a:hover{text-decoration: none;}
 .box .r_newspush .right_box .img_news ul li div.content h3.news_name a {display: block; margin-bottom: 3px; font-size: 14px; color: #3d3d3d; letter-spacing: 0; line-height: 22px; max-width: 230px; overflow: hidden; cursor: pointer; font-weight: bold;}
 .box .r_newspush .right_box .img_news ul li div.content h3.news_name a:hover {color: #c92027;}
 
+.box .lilun_neirong{box-shadow: 0 1px 3px rgba(26,26,26,.1); margin-top: 80px; background-color: white;padding: 20px 20px 20px 20px;}
+.box .lilun_neirong .fanhui{margin-bottom: 30px;color: #8a8a8a;}
+.box .lilun_neirong .fanhui a{color: #8a8a8a;}
+.box .lilun_neirong>p{color: #8a8a8a;margin-top: 15px;}
+.box .lilun_neirong>p a{color: #8a8a8a;}
+.box .lilun_neirong .text{margin-top: 20px;border-top: 1px solid #8a8a8a;padding-top: 20px;}
+.box .lilun_neirong .text p{text-indent: 2em;margin-bottom: 20px;}
+.box .lilun_neirong .text p i{font-weight: 600;font-style: normal;}
+.box .lilun_neirong .text .chuti{font-weight: 600;}
+.box .lilun_neirong .text .zebian{text-align: right;}
+
 /*footer*/
+.kongbai{margin-top: 75px;}
 .footer .footer_text{margin-top: 50px; background-color: #1a3048;font-size: 12px;color: white;height: 30px;text-align: center;line-height: 30px;}

@@ -43,6 +43,15 @@
         background-size: 100% 100%;
         background-position: ;
     }
+    .box .l_newlists{
+    	margin-top: 130px;
+    }
+    .box .r_newspush{
+    	margin-top: 130px;
+    }
+    .box .lilun_neirong{
+    	margin-top: 130px;
+    }
 }
 @media (max-width:991px) {
     .box .section .part4 .threebox {
@@ -132,6 +141,15 @@
     }
     .ipad-wrapper .app-wrap {
         left: 22%;
+    }
+    .box .l_newlists{
+    	margin-top: 80px;
+    }
+    .box .r_newspush{
+    	margin-top: 80px;
+    }
+    .box .lilun_neirong{
+    	margin-top: 80px;
     }
 }
 @media (max-width:768px) {
