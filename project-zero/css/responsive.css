@@ -44,13 +44,13 @@
         background-position: ;
     }
     .box .l_newlists{
-    	margin-top: 130px;
+    	margin-top: 80px;
     }
     .box .r_newspush{
-    	margin-top: 130px;
+    	margin-top: 80px;
     }
     .box .lilun_neirong{
-    	margin-top: 130px;
+    	margin-top: 80px;
     }
 }
 @media (max-width:991px) {
@@ -71,8 +71,14 @@
     .box .section .part6 .newslist{
         margin-top: 20px;
     }
+    .box .l_newlists{
+        margin-top: 130px;
+    }
     .box .r_newspush{
-        margin-top: 15px;
+        margin-top: 130px;
+    }
+    .box .lilun_neirong{
+        margin-top: 130px;
     }
 }
 @media (max-width:768px) {
@@ -150,6 +156,9 @@
     }
     .box .lilun_neirong{
     	margin-top: 80px;
+    }
+    .box .r_newspush{
+        margin-top: 15px;
     }
 }
 @media (max-width:768px) {

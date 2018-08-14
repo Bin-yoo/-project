@@ -59,6 +59,7 @@ a:hover{text-decoration: none;}
 .box .lilun_neirong>p a{color: #8a8a8a;}
 .box .lilun_neirong .text{margin-top: 20px;border-top: 1px solid #8a8a8a;padding-top: 20px;}
 .box .lilun_neirong .text p{text-indent: 2em;margin-bottom: 20px;}
+.box .lilun_neirong .text img{width: 100%; margin: 10px 0;}
 .box .lilun_neirong .text p i{font-weight: 600;font-style: normal;}
 .box .lilun_neirong .text .chuti{font-weight: 600;}
 .box .lilun_neirong .text .zebian{text-align: right;}
